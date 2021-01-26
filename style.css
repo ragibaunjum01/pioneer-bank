@@ -4,7 +4,7 @@ body{
 .bank-title{
     text-align: center;
 }
-.transactinTitle{
+.transactionTitle{
     text-align: center;
     margin-bottom: 30px;
 }
@@ -16,9 +16,6 @@ body{
 }
 #transactionArea{
     display: none;
-}
-.status{
-    
 }
 .deposit{
     background-color: slateblue;

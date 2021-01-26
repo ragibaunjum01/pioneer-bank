@@ -17,13 +17,13 @@
             <h4>Login</h4>
             <input type="text" class="form-control" placeholder="Enter your e-mail">
             <br>
-            <input type="password" name="" id="" class="form-control" placeholder="Enter your passward">
+            <input type="password" name="" id="" class="form-control" placeholder="Enter your password">
             <br>
             <button id="login" class="btn btn-success">Enter</button>
         </div>
     </section>
     <section id="transactionArea">
-        <h1 class="transactinTitle">Transaction Histroy</h1>
+        <h1 class="transactionTitle">Transaction History</h1>
         <div class="row">
             <div class="col-4">
                 <div class="deposit">
@@ -34,7 +34,7 @@
             <div class="col-4">
                 <div class="withdraw">
                     <h5>Withdraw</h5>
-                    <h2>$00</h2>
+                    <h2>$<span id="currentWithdraw">00</span></h2>
                 </div>
             </div>
             <div class="col-4">
@@ -56,9 +56,9 @@
             <div class="col-6">
                 <div class="submitArea">
                     <h4>Withdraw Money</h4>
-                    <input type="text" class="form-control" placeholder="$ amount you want to withdraw">
+                    <input id="withdrawAmount" type="text" class="form-control" placeholder="$ amount you want to withdraw">
                     <br>
-                    <button class="btn btn-success">Withdraw</button>
+                    <button id="withdraw" class="btn btn-success">Withdraw</button>
                 </div>
             </div>
         </div>
