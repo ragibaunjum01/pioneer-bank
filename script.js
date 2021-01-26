@@ -35,10 +35,10 @@ function getInputNum(id) {
     return amountNum;
 }
 
-function updateSpanText(id, depositNum) {
+function updateSpanText(id, addedNum) {
     const current = document.getElementById(id).innerText;
     const currentNum = parseFloat(current);
-    const total = currentNum + depositNum;
+    const total = currentNum + addedNum;
     document.getElementById(id).innerText = total;
 }
 
